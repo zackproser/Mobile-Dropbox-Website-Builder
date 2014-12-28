@@ -1,0 +1,16 @@
+/* line 3, ../../src/sass/main.scss */
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 7, ../../src/sass/main.scss */
+.gallery-thumb {
+  margin-bottom: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* line 13, ../../src/sass/main.scss */
+.full-image {
+  max-width: 1200px;
+}

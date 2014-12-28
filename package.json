@@ -1,0 +1,33 @@
+{
+  "name": "node-dropbox-gallery",
+  "version": "1.0.0",
+  "description": "Put photos in dropbox folder on phone to publish to website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "dropbox",
+    "photo",
+    "gallery"
+  ],
+  "author": "Zack Proser",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.1.2",
+    "dropbox": "~0.10.2",
+    "express-hbs": "~0.7.9",
+    "grunt": "~0.4.4",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-compass": "~0.7.2",
+    "body-parser": "~1.2.0",
+    "nodemailer": "~0.6.3"
+  }
+}

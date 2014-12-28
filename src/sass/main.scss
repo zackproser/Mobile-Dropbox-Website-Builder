@@ -1,0 +1,15 @@
+$main-font: 'Raleway', sans-serif;
+
+h1 {
+ font-family: $main-font;
+}
+
+.gallery-thumb {
+	margin-bottom: 20px;
+	width: 100%;
+	cursor: pointer;
+}
+
+.full-image {
+	max-width: 1200px;
+}

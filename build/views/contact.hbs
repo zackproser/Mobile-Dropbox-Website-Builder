@@ -1,0 +1,24 @@
+<div id="main-intro" class="text-center">
+	<h1 class="main-banner">Contact Me</h1>
+
+	<form id="contact-form" class="messaging-form" role="form">
+		<div class="form-group">
+			<input id="email-field" class="form-control" type="email" placeholder="Please Enter Your E-mail Address..." />
+
+			<textarea id="message-field" class="form-control" rows="10" placeholder="What's on your mind?"></textarea>
+
+		</div><!--/form-group-->
+
+			<button id="send-message-button" class="btn btn-success" type="button">Send</button>
+	</form>
+
+	<script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+	<script>
+		$('#send-message-button').click(function() {
+			validate();
+		});
+	</script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/validate.js"></script>
+
+</div><!--/main-intro-->
